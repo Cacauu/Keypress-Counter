@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E325202179BFF2100E8E3BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E325201179BFF2100E8E3BF /* Cocoa.framework */; };
+		3E32520C179BFF2100E8E3BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E32520A179BFF2100E8E3BF /* InfoPlist.strings */; };
+		3E32520E179BFF2100E8E3BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E32520D179BFF2100E8E3BF /* main.m */; };
+		3E325212179BFF2100E8E3BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3E325210179BFF2100E8E3BF /* Credits.rtf */; };
+		3E325215179BFF2100E8E3BF /* KPCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E325214179BFF2100E8E3BF /* KPCAppDelegate.m */; };
+		3E325218179BFF2100E8E3BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E325216179BFF2100E8E3BF /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E3251FE179BFF2100E8E3BF /* Keypress Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keypress Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E325201179BFF2100E8E3BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3E325204179BFF2100E8E3BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3E325205179BFF2100E8E3BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E325206179BFF2100E8E3BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E325209179BFF2100E8E3BF /* Keypress Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keypress Counter-Info.plist"; sourceTree = "<group>"; };
+		3E32520B179BFF2100E8E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E32520D179BFF2100E8E3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E32520F179BFF2100E8E3BF /* Keypress Counter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keypress Counter-Prefix.pch"; sourceTree = "<group>"; };
+		3E325211179BFF2100E8E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3E325213179BFF2100E8E3BF /* KPCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPCAppDelegate.h; sourceTree = "<group>"; };
+		3E325214179BFF2100E8E3BF /* KPCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPCAppDelegate.m; sourceTree = "<group>"; };
+		3E325217179BFF2100E8E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3251FB179BFF2100E8E3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E325202179BFF2100E8E3BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3251F5179BFF2100E8E3BF = {
+			isa = PBXGroup;
+			children = (
+				3E325207179BFF2100E8E3BF /* Keypress Counter */,
+				3E325200179BFF2100E8E3BF /* Frameworks */,
+				3E3251FF179BFF2100E8E3BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E3251FF179BFF2100E8E3BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3251FE179BFF2100E8E3BF /* Keypress Counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E325200179BFF2100E8E3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E325201179BFF2100E8E3BF /* Cocoa.framework */,
+				3E325203179BFF2100E8E3BF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E325203179BFF2100E8E3BF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E325204179BFF2100E8E3BF /* AppKit.framework */,
+				3E325205179BFF2100E8E3BF /* CoreData.framework */,
+				3E325206179BFF2100E8E3BF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3E325207179BFF2100E8E3BF /* Keypress Counter */ = {
+			isa = PBXGroup;
+			children = (
+				3E325213179BFF2100E8E3BF /* KPCAppDelegate.h */,
+				3E325214179BFF2100E8E3BF /* KPCAppDelegate.m */,
+				3E325216179BFF2100E8E3BF /* MainMenu.xib */,
+				3E325208179BFF2100E8E3BF /* Supporting Files */,
+			);
+			path = "Keypress Counter";
+			sourceTree = "<group>";
+		};
+		3E325208179BFF2100E8E3BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E325209179BFF2100E8E3BF /* Keypress Counter-Info.plist */,
+				3E32520A179BFF2100E8E3BF /* InfoPlist.strings */,
+				3E32520D179BFF2100E8E3BF /* main.m */,
+				3E32520F179BFF2100E8E3BF /* Keypress Counter-Prefix.pch */,
+				3E325210179BFF2100E8E3BF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E3251FD179BFF2100E8E3BF /* Keypress Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E32521B179BFF2100E8E3BF /* Build configuration list for PBXNativeTarget "Keypress Counter" */;
+			buildPhases = (
+				3E3251FA179BFF2100E8E3BF /* Sources */,
+				3E3251FB179BFF2100E8E3BF /* Frameworks */,
+				3E3251FC179BFF2100E8E3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keypress Counter";
+			productName = "Keypress Counter";
+			productReference = 3E3251FE179BFF2100E8E3BF /* Keypress Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E3251F6179BFF2100E8E3BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KPC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yannik Achternbosch";
+			};
+			buildConfigurationList = 3E3251F9179BFF2100E8E3BF /* Build configuration list for PBXProject "Keypress Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E3251F5179BFF2100E8E3BF;
+			productRefGroup = 3E3251FF179BFF2100E8E3BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E3251FD179BFF2100E8E3BF /* Keypress Counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E3251FC179BFF2100E8E3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E32520C179BFF2100E8E3BF /* InfoPlist.strings in Resources */,
+				3E325212179BFF2100E8E3BF /* Credits.rtf in Resources */,
+				3E325218179BFF2100E8E3BF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3251FA179BFF2100E8E3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E32520E179BFF2100E8E3BF /* main.m in Sources */,
+				3E325215179BFF2100E8E3BF /* KPCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E32520A179BFF2100E8E3BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E32520B179BFF2100E8E3BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E325210179BFF2100E8E3BF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E325211179BFF2100E8E3BF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3E325216179BFF2100E8E3BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E325217179BFF2100E8E3BF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E325219179BFF2100E8E3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E32521A179BFF2100E8E3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E32521C179BFF2100E8E3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keypress Counter/Keypress Counter-Prefix.pch";
+				INFOPLIST_FILE = "Keypress Counter/Keypress Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E32521D179BFF2100E8E3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keypress Counter/Keypress Counter-Prefix.pch";
+				INFOPLIST_FILE = "Keypress Counter/Keypress Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3251F9179BFF2100E8E3BF /* Build configuration list for PBXProject "Keypress Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E325219179BFF2100E8E3BF /* Debug */,
+				3E32521A179BFF2100E8E3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E32521B179BFF2100E8E3BF /* Build configuration list for PBXNativeTarget "Keypress Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E32521C179BFF2100E8E3BF /* Debug */,
+				3E32521D179BFF2100E8E3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E3251F6179BFF2100E8E3BF /* Project object */;
+}
